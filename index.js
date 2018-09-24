@@ -303,6 +303,7 @@ var ModalBox = createReactClass({
           isAnimateClose: false,
           animClose
         });
+        this.state.position.resetAnimation()
         if (this.props.onClosed) this.props.onClosed();
       });
     });
